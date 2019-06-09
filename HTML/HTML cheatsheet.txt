@@ -1,0 +1,47 @@
+HTML definitions: 
+
+From youtube Video freeCodeCamp.org
+- <meta> meta tag: defines information about the file 
+	- contains attributes: Custom information 
+
+
+- body: contains the content the user sees in the website
+	Under body it may contain the following: 
+	<hx></.> Header: X in this case represents a number between 1-6, one being a large headre to 6 being the smallest. Good for showing the title of your website.
+		
+		* note: Header: A good idea to set the header as a hierachy fashion to lay out the structure. 
+		<h1>: Title of the website
+			<h2>: Section of the website, 
+				<h3> ...
+		
+	<p></.> Paragraph: Good for paragraph. Writting a block of text
+	<br/> break:Like carriage return 
+	<hr/> horizontal rule: Creates a horizontal line
+	
+- Revisit Body: The structure to build a website: 
+	<header> </.> Header of the website: Contains title of the article, brand, etc.
+		<nav></.>: Homepage, about us, contact (what see that looks like a tab page to navigate to a different webpage
+		
+	<main></.>: Main content of the website 
+		<article><./>
+			<section><./section>
+	<footer><./>: 
+	* Header, main and footer are siblings and child of the body element
+
+- comments: 
+	<!-- my comment-->
+
+- changing text format: 
+
+	<sub></.>: Subscripts the element: Example H2O -> ... <sub>2</sub> will make the two subcript
+	<sup></.>:Superscripts the element: Example 102(ten squared) ...<sup>2</sup> superscripts 2
+	<big></.>: Text gets bigger
+	<small></.>: Text gets smaller
+	<b></.>: Bolds the element in the tag
+	<i></.>: Italics the element in the tag
+
+- style and color: 
+	<p style = "color: red; background-color: blue;">
+
+	
+goes in between: <head> and <title>
